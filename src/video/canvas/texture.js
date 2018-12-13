@@ -179,7 +179,8 @@
                         trimmed      : frame.trimmed,
                         width        : s.w,
                         height       : s.h,
-                        angle        : (frame.rotated === true) ? nhPI : 0
+                        angle        : (frame.rotated === true) ? nhPI : 0,
+                        sourceSize   : frame.sourceSize
                     };
                 }
             });
